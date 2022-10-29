@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie DB</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__search">
+            <form action="#">
+                <input type="text" placeholder="Search">
+            </form>
+        </div>
+        <div class="header__logo">
+            <img src="icons/Logotype.svg" alt="logo">
+        </div>
+    </header>
+    <main class="promo">
+        <div class="promo__menu">
+            <nav class="promo__menu-list">
+                <ul>
+                    <li><a class="promo__menu-item promo__menu-item_active" href="#">Movies</a></li>
+                    <li><a class="promo__menu-item" href="#">Series</a></li>
+                    <li><a class="promo__menu-item" href="#">Cartoons</a></li>
+                    <li><a class="promo__menu-item" href="#">Clips</a></li>
+                    <li><a class="promo__menu-item" href="#">Trailers</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="promo__content">
+            <div class="promo__bg">
+                <div class="promo__genre">COMEDY</div>
+                <div class="promo__title">THE MARTIAN</div>
+                <div class="promo__descr">STORIE ABOUT MAN WHO SURVIVED ON AN FOREIGN PLANET</div>
+                <div class="promo__ratings">
+                    <span>IMDb: 8.0</span>
+                    <span>PlanetaKino: 7.7</span>
+                </div>
+            </div>
+            <div class="promo__interactive">
+                <div>
+                    <div class="promo__interactive-title">MOVIES WATCHED</div>
+                    <ul class="promo__interactive-list">
+                        <li class="promo__interactive-item">LOGAN
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">JUSTICE LEAGUE
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">LA LA LAND
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">WHIPLASH
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">SCOTT PILIGRIM VS...
+                            <div class="delete"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="add">
+                        <div class="promo__interactive-title">ADD NEW MOVIE</div>
+                        <span>Movie`s name</span>
+                        <input class="adding__input" type="text" placeholder="What movie did you watch already?">
+                        <span>Make it favourite?</span>
+                        <input type="checkbox">
+                        <span class="yes">Yes!</span>
+                        <button>Confirm</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="promo__adv">
+            <div class="promo__adv-title">Реклама от спонсоров</div>
+            <img src="img/content_1.jpg" alt="some picture">
+            <img src="img/content_2.jpg" alt="some picture">
+            <img src="img/content_3.png" alt="some picture">
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
